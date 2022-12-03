@@ -1,0 +1,2 @@
+Имя текущего пользователя: student-09-525
+Текущая дериктория: C:\Users\student-09-525\Downloads\Lab2_15\prog

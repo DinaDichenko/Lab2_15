@@ -4,7 +4,6 @@
 import sys
 
 if __name__ == "__main__":
-    text = 'Какой-то Текст'
     litters = {
             "Аа": 0,
             "Бб": 0,
@@ -43,7 +42,7 @@ if __name__ == "__main__":
 
     if len(sys.argv) != 2:
         print(
-            "Передайте имя файла в качестве аргумента командной строки.",
+            "Передайте имя файла в качестве аргумента командной строки: ",
             sys.argv,
             len(sys.argv),
         )
@@ -52,6 +51,7 @@ if __name__ == "__main__":
     try:
         with open(sys.argv[1], "r", encoding="utf-8") as f:
             sentences = f.readlines()
+            f.close()
 
             for sentence in sentences:
                 for i in sentence:
