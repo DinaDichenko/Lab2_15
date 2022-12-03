@@ -51,7 +51,6 @@ if __name__ == "__main__":
     try:
         with open(sys.argv[1], "r", encoding="utf-8") as f:
             sentences = f.readlines()
-            f.close()
 
             for sentence in sentences:
                 for i in sentence:

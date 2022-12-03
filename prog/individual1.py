@@ -4,7 +4,6 @@
 if __name__ == "__main__":
     with open("ind1.txt", "r", encoding="utf-8") as f:
         sentences = f.readlines()
-        f.close()
     joinon = False
     k = 0
     str = []
