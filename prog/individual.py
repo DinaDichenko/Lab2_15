@@ -16,4 +16,3 @@ if __name__ == "__main__":
         os.rename("newfile.txt", "ind3.txt")
     else:
         print("Файл уже существует")
-        
